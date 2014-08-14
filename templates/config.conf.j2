@@ -1,0 +1,5 @@
+{% if thehash is iterable %}
+{% for k in thehash %}
+{{ k.somekey }}
+{% endfor %}
+{% endif %}
